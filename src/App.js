@@ -11,10 +11,12 @@ function App() {
 
 	async function fetchISSData() {
 		// const resp = await fetch("#"); // debugging
-		const resp = await fetch("http://api.open-notify.org/iss-now.json");
+		const resp = await fetch(
+			"https://api.wheretheiss.at/v1/satellites/25544"
+		);
 		const data = await resp.json();
-		await setLongitude(data.iss_position.longitude);
-		await setLatitude(data.iss_position.latitude);
+		await setLongitude(String(data.longitude).slice(0, 7));
+		await setLatitude(String(data.latitude).slice(0, 7));
 		setProgress(0);
 	}
 
