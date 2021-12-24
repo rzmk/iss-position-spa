@@ -51,6 +51,7 @@ function App() {
 				<a
 					href="https://github.com/rzmk/iss-position-spa"
 					target="_blank"
+					rel="noreferrer"
 				>
 					<AiFillGithub className="mt-8 w-12 h-12 hover:scale-125 transition ease-in-out" />
 				</a>
