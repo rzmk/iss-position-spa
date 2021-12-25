@@ -35,3 +35,18 @@
 		transform: rotate(360deg);
 	}
 }
+
+/* Small only */
+@media screen and (max-width: 65em) {
+	h1 + svg {
+		display: none;
+	}
+}
+
+/* Medium and up */
+@media screen and (min-width: 65em) {
+	h1 + svg {
+		display: block;
+		margin-bottom: -1.5em;
+	}
+}
