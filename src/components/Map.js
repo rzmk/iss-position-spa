@@ -1,5 +1,4 @@
 import React from "react";
-import { IconContext } from "react-icons";
 import { FaSatellite } from "react-icons/fa";
 import {
 	ComposableMap,
