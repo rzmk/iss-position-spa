@@ -6,8 +6,8 @@ import ProgressBar from "./components/ProgressBar";
 import "./App.css";
 
 function App() {
-	const [longitude, setLongitude] = useState(0);
-	const [latitude, setLatitude] = useState(0);
+	const [longitude, setLongitude] = useState("");
+	const [latitude, setLatitude] = useState("");
 	const [progress, setProgress] = useState(0);
 
 	async function fetchISSData() {
