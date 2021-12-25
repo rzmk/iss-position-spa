@@ -5,6 +5,7 @@ function Coordinates({ latitude, longitude }) {
 	useEffect(() => {
 		if (window.screen.width < 480) setSmallScreen(true);
 		else setSmallScreen(false);
+		// eslint-disable-next-line react-hooks/exhaustive-deps
 	}, [window.screen.width]);
 
 	return (
