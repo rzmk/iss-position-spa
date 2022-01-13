@@ -1,8 +1,55 @@
 {
-	"short_name": "React App",
-	"name": "Create React App Sample",
+	"short_name": "ISS Position",
+	"name": "ISS Position SPA",
 	"start_url": ".",
 	"display": "standalone",
-	"theme_color": "#000000",
-	"background_color": "#ffffff"
+	"theme_color": "#5bbad5",
+	"background_color": "#ffffff",
+	"icons": [
+		{
+			"src": "/favicon-16x16.png",
+			"sizes": "16x16",
+			"type": "image/png"
+		},
+		{
+			"src": "favicon-32x32.png",
+			"sizes": "32x32",
+			"type": "image/png"
+		},
+		{
+			"src": "mstile-70x70.png",
+			"sizes": "70x70",
+			"type": "image/png"
+		},
+		{
+			"src": "mstile-144x144.png",
+			"sizes": "144x144",
+			"type": "image/png"
+		},
+		{
+			"src": "mstile-150x150.png",
+			"sizes": "150x150",
+			"type": "image/png"
+		},
+		{
+			"src": "mstile-310x150.png",
+			"sizes": "310x150",
+			"type": "image/png"
+		},
+		{
+			"src": "mstile-310x310.png",
+			"sizes": "310x310",
+			"type": "image/png"
+		},
+		{
+			"src": "/android-chrome-192x192.png",
+			"sizes": "192x192",
+			"type": "image/png"
+		},
+		{
+			"src": "/android-chrome-512x512.png",
+			"sizes": "512x512",
+			"type": "image/png"
+		}
+	]
 }
