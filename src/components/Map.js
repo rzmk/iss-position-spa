@@ -9,9 +9,6 @@ import {
 	Sphere,
 } from "react-simple-maps";
 
-const geoUrl =
-	"https://raw.githubusercontent.com/zcreativelabs/react-simple-maps/master/topojson-maps/world-110m.json";
-
 const Map = ({ latitude, longitude }) => {
 	// Icon alignment offset fix
 	const newLong = String(Number(longitude) - 2.7);
@@ -21,7 +18,7 @@ const Map = ({ latitude, longitude }) => {
 		<ComposableMap projection="geoEqualEarth" width={2400}>
 			<Graticule stroke="rgba(255, 255, 255, 0.5)" />
 			<Sphere stroke="#FF5533" strokeWidth={2} />
-			<Geographies geography={geoUrl}>
+			<Geographies geography="/map.json">
 				{({ geographies }) =>
 					geographies.map((geo) => (
 						<Geography
