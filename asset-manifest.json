@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/iss-position-spa/static/css/main.2ab3824a.css",
-    "main.js": "/iss-position-spa/static/js/main.eb53f49f.js",
+    "main.js": "/iss-position-spa/static/js/main.d01ab8cf.js",
     "static/js/787.f54da110.chunk.js": "/iss-position-spa/static/js/787.f54da110.chunk.js",
     "service-worker.js": "/iss-position-spa/service-worker.js",
     "index.html": "/iss-position-spa/index.html",
     "main.2ab3824a.css.map": "/iss-position-spa/static/css/main.2ab3824a.css.map",
-    "main.eb53f49f.js.map": "/iss-position-spa/static/js/main.eb53f49f.js.map",
+    "main.d01ab8cf.js.map": "/iss-position-spa/static/js/main.d01ab8cf.js.map",
     "787.f54da110.chunk.js.map": "/iss-position-spa/static/js/787.f54da110.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2ab3824a.css",
-    "static/js/main.eb53f49f.js"
+    "static/js/main.d01ab8cf.js"
   ]
 }
