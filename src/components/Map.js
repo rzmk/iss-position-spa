@@ -8,6 +8,7 @@ import {
 	Marker,
 	Sphere,
 } from "react-simple-maps";
+import jsonData from "./map-image.json"
 
 const Map = ({ latitude, longitude }) => {
 	// Icon alignment offset fix
@@ -18,7 +19,7 @@ const Map = ({ latitude, longitude }) => {
 		<ComposableMap projection="geoEqualEarth" width={2400}>
 			<Graticule stroke="rgba(255, 255, 255, 0.5)" />
 			<Sphere stroke="#FF5533" strokeWidth={2} />
-			<Geographies geography="./map.json">
+			<Geographies geography={jsonData}>
 				{({ geographies }) =>
 					geographies.map((geo) => (
 						<Geography
